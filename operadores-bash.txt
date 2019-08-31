@@ -1,0 +1,36 @@
+Operadores Numéricos
+
+-eq Igual que 
+-ge Más grande o igual que 
+-gt Más grande que 
+-le Menor o igual que 
+-lt Menor que 
+-ne Distingo que 
+
+Operadores de Cadena
+
+= Iguales 
+!= Diferentes 
+-n Con longitud mayor que 0 
+-z Longitud igual a 0 o vacío 
+
+Operadores de Ficheros
+
+-d Es un directorio 
+-e Existe el fichero 
+-f Es un fichero ordinario 
+-r Es leíble 
+-s Es no vacío 
+-w Es escribible 
+-x Es ejecutable 
+-O Eres el dueño del fichero 
+-G El grupo del fichero es igual al tuyo 
+-x Es ejecutable 
+-nt Fichero1 es mas reciente que fichero2 
+-ot Fichero1 es mas antiguo que fichero2 
+
+Operadores Booleanos
+
+! Negación 
+-a and 
+-o or
