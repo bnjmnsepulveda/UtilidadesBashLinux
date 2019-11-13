@@ -19,6 +19,22 @@ git log --branches=*
 #ver commit en cierto branch
 git log branch
 
+#Deshacer un commit para repos publicos idealmente
+git revert <id_commit>
+#volver a un commit anterior y eliminar los posteriores a ese commit (No usar con repos publicos compartidos, error en push)
+git reset --hard <id_commit>
+
+#eliminar archivos untrucked con confirmacion
+git clean -n
+#eliminar archivos untrucked forzadamente
+git clean -f
+#eliminar archivos untrucked forzadamente incluye directorios
+git clean -f -d 
+#eliminar archivos untrucked forzadamente en cierto path incluye directorios (-d -f equivalente a -df ) 
+git clean -fd <path_file>
+
+
+
 #guardar cambios sin hacer commit util para funcionalidades que interumpen un ttabajo en branch
 git stash save "nombre_stash"
 
