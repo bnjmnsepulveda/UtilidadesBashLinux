@@ -10,10 +10,14 @@ git checkout -b nombre_rama origin/rama_remota
 #corregir ultimo commit
 git commit -m 'Mensaje corregido' --amend
 
-#ver los commmits realizados 
+#ver los commmits realizados en el branch actual
 git log
-#ver los commits en una linea identificador y mensaje
+#ver los commits en una linea identificador y mensaje en el branch actual
 git log --oneline
+#ver commits en todos los brazos
+git log --branches=*
+#ver commit en cierto branch
+git log branch
 
 #guardar cambios sin hacer commit util para funcionalidades que interumpen un ttabajo en branch
 git stash save "nombre_stash"
