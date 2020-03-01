@@ -81,3 +81,8 @@ git checkout HEAD path/to/file
 
 # Deshacer el último commit (dejándolo como estaba con los archivos añadidos y demás)
 git reset --soft HEAD^
+
+# mueve los commit de la rama actual despues de los commit de master (evita merge conflict)
+# actualiza el punto de rama donde estamos con la rama deseada
+git rebase master
+
