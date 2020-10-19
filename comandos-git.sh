@@ -1,5 +1,6 @@
 #actualizar branch remotos
 git remote update origin --prune
+git fetch origin
 
 #todas las ramas incluidas las remotas
 git branch -a
